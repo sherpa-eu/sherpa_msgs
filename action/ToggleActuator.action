@@ -1,0 +1,8 @@
+# goal
+bool command
+---
+# result
+bool state
+---
+# feedback
+bool state

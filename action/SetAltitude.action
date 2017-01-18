@@ -1,0 +1,15 @@
+# goal
+float32 altitude
+---
+# result
+bool motors_on
+bool motor_hw_available
+bool reached
+float32 current_altitude
+---
+# feedback
+bool motors_on
+bool motor_hw_available
+bool reached
+float32 current_altitude
+

@@ -1,0 +1,18 @@
+# goal
+string target_name
+bool mounted_state
+---
+# result
+bool target_found
+bool space_available
+bool mounting_hw_available
+bool manipulation_error
+bool mounted_target
+---
+# feedback
+bool target_found
+bool space_available
+bool mounting_hw_available
+bool manipulation_error
+bool mounted_target
+

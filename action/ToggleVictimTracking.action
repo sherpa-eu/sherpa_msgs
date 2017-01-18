@@ -1,0 +1,11 @@
+# goal
+bool command
+---
+# result
+bool state
+bool victim_found
+---
+# feedback
+bool state
+bool victim_found
+

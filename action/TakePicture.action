@@ -1,0 +1,13 @@
+# goal
+bool command
+---
+# result
+bool picture_taken
+bool picture_hw_available
+string picture_id
+---
+# feedback
+bool picture_taken
+bool picture_hw_available
+string picture_id
+
