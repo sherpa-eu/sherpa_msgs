@@ -1,13 +1,12 @@
 <package format="2">
-  <name>giskard_msgs</name>
+  <name>sherpa_msgs</name>
   <version>0.1.0</version>
 
   <description>
-    Some auxiliary messages for giskard controller nodes.
+    Some auxiliary messages for the sherpa demo.
   </description>
 
   <author email="blandc@cs.uni-bremen.de">Mihai Pomarlan</author>
-  <author email="georg.bartels@cs.uni-bremen.de">Georg Bartels</author>
   <maintainer email="blandc@cs.uni-bremen.de">Mihai Pomarlan</maintainer>
   <license>BSD</license>
 
