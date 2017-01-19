@@ -1,10 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(sherpa_msgs)
 
-if(NOT CMAKE_CONFIGURATION_TYPES AND NOT CMAKE_BUILD_TYPE)
-  set(CMAKE_BUILD_TYPE Release)
-endif()
-
 set(MSG_DEPS
   std_msgs
   geometry_msgs
@@ -15,8 +11,10 @@ set(MSG_FILES
   Dummy.msg
 )
 
-#set(SRV_FILES
-#)
+set(SRV_FILES
+  ReferenceDesignator.srv
+  PerformDesignator.srv
+)
 
 set(ACT_FILES
 )
@@ -28,10 +26,10 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 add_message_files(DIRECTORY msg FILES ${MSG_FILES})
-#add_service_files(DIRECTORY srv FILES ${SRV_FILES})
+add_service_files(FILES ${SRV_FILES})
 add_action_files(DIRECTORY action FILES ${ACT_FILES})
 
 generate_messages(DEPENDENCIES ${MSG_DEPS})
 
-catkin_package(DEPENDS ${MSG_DEPS} message_runtime actionlib)
+catkin_package(CATKIN_DEPENDS ${MSG_DEPS} message_runtime actionlib)
 
