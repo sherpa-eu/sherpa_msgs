@@ -17,6 +17,12 @@ set(SRV_FILES
 )
 
 set(ACT_FILES
+  Mount.action
+  MoveTo.action
+  SetAltitude.action
+  TakePicture.action
+  ToggleActuator.action
+  ToggleVictimTracking.action
 )
 
 find_package(catkin REQUIRED COMPONENTS
