@@ -1,4 +1,5 @@
 # goal
+string picture_id
 ---
 # result
 bool picture_taken
