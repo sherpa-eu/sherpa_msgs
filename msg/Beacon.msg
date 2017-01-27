@@ -1,0 +1,3 @@
+string robot_name
+float64 beacon_value
+geometry_msgs/Vector3 direction
