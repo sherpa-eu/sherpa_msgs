@@ -9,6 +9,7 @@ set(MSG_DEPS
 
 set(MSG_FILES
   Dummy.msg
+  Beacon.msg
 )
 
 set(SRV_FILES
