@@ -13,7 +13,6 @@ set(MSG_FILES
 
 set(SRV_FILES
   ReferenceDesignator.srv
-  PerformDesignator.srv
 )
 
 set(ACT_FILES
@@ -23,6 +22,7 @@ set(ACT_FILES
   TakePicture.action
   ToggleActuator.action
   ToggleVictimTracking.action
+  PerformDesignator.action
 )
 
 find_package(catkin REQUIRED COMPONENTS
