@@ -1,6 +1,5 @@
 
 string designator
-
 ---
-
-bool ack
+string result
+---
