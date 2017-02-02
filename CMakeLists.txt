@@ -9,6 +9,7 @@ set(MSG_DEPS
 
 set(MSG_FILES
   Dummy.msg
+  Battery.msg
   Beacon.msg
 )
 
