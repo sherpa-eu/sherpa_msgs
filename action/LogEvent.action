@@ -1,0 +1,11 @@
+# goal
+sherpa_msgs/LoggedIdentifier event_identifier
+sherpa_msgs/LoggedRDFEntry event_type
+sherpa_msgs/LoggedRDFEntry[] rdf_entries
+---
+# result
+bool logged
+---
+# feedback
+bool logged
+

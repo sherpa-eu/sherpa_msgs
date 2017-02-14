@@ -11,6 +11,8 @@ set(MSG_FILES
   Dummy.msg
   Battery.msg
   Beacon.msg
+  LoggedIdentifier.msg
+  LoggedRDFEntry.msg
 )
 
 set(SRV_FILES
@@ -18,6 +20,7 @@ set(SRV_FILES
 )
 
 set(ACT_FILES
+  LogEvent.action
   Mount.action
   MoveTo.action
   SetAltitude.action
