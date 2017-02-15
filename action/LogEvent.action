@@ -1,6 +1,12 @@
 # goal
-sherpa_msgs/LoggedIdentifier event_identifier
-sherpa_msgs/LoggedRDFEntry event_type
+int8 USE_RANDOM_GENERATED_ID=0
+int8 USE_ID_IN_NAME=1
+
+string name
+int8 name_id_flag
+
+string type
+
 sherpa_msgs/LoggedRDFEntry[] rdf_entries
 ---
 # result
