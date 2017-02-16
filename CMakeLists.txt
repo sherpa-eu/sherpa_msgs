@@ -11,6 +11,8 @@ set(MSG_FILES
   Dummy.msg
   Battery.msg
   Beacon.msg
+  LoggedBattery.msg
+  LoggedBatteryList.msg
   LoggedRDFEntry.msg
 )
 
