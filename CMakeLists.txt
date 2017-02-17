@@ -18,6 +18,7 @@ set(MSG_FILES
 
 set(SRV_FILES
   ReferenceDesignator.srv
+  PerformDesignator.srv
 )
 
 set(ACT_FILES
